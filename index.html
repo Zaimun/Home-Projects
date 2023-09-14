@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>MediaJournal</title>
+  </head>
+  <body>
+    <div class="centered-div">
+      <h5>Filmer</h5>
+      <a href="movies.html">  
+       <img class="resize" src="C:\Users\SimonNilssen\Documents\Simon\Fiddle\UpcomingMediaApp\media\Movies_Icon.png" alt="Movies">
+      </a>
+    </div>
+
+    <div class="centered-div">
+      <a href="shows.html">
+        <h5>Serier</h5>   
+       <img class="resize" src="C:\Users\SimonNilssen\Documents\Simon\Fiddle\UpcomingMediaApp\media\Shows_Icon.png" alt="Shows">
+      </a>
+    </div>
+
+    <div class="centered-div">   
+      <a href="games.html">
+        <h5>Spill</h5>
+        <img class="resize" src="C:\Users\SimonNilssen\Documents\Simon\Fiddle\UpcomingMediaApp\media\Games_icon.png" alt="Games">   
+      </a>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>

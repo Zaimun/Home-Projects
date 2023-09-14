@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Movies</title>
+  </head>
+  <body>
+    <a href="index.html"><h5>HOME</h5></a>
+
+    <div class="centered-div">
+    <label for="item">Enter Movie:</label>
+    <input type="text" id="item" />
+    <button id="addItemButton">Add</button>
+    </div>
+
+    <div>
+      <ul id="itemList">
+      <!-- List items will be dynamically added here -->
+    </ul>
+    </div>
+
+    <script src="movies.js"></script>
+    
+  </body>
+</html>

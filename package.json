@@ -1,0 +1,18 @@
+{
+  "name": "UpcomingMediaApp",
+  "productName": "UpcomingMediaApp",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "SimonNilssen",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron-store": "8.1.0"
+  },
+  "devDependencies": {
+    "electron": "25.4.0"
+  }
+}

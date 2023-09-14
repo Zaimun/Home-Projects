@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+* {
+  background-color: black;
+  //outline: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.centered-div {
+  text-align: center;
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+
+.centered-div img {
+  display: inline-block;
+  margin: 0;
+  padding: 0px;
+}
+
+.resize {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1{
+  text-align: center;
+  margin: auto;
+  color:aquamarine;
+  padding-top:80px;
+}
+
+h5 {
+  color:white;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  color:white;
+}
+
+label {
+  color: white;
+}
+
+input {
+  color: white;
+}
+
+ul, li {
+  color: white;
+  list-style-type: none;
+}
